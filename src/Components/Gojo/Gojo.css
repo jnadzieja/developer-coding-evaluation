@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'Effra-Std-Rg';
+  src: url('../../assets/fonts/Effra_Std_Rg.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Effra-Std-Bd';
+  src: url('../../assets/fonts/Effra_Std_Bd.ttf') format('truetype');
+}
+
+.gojo-container {
+  background: url('../../assets/images/pic-gojo-bg.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 85vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.overlay-img {
+  width: 75%;
+  padding-left: 8rem;
+  margin-top: 8.2rem;
+}
+
+.gojo-info {
+  margin: 12rem 10rem 12rem 10rem;
+  font-family: 'Effra-Std-Rg';
+}
+
+.gojo-header {
+  font-family: 'Effra-Std-Bd';
+  font-size: 36px;
+  margin-bottom: -0.5rem;
+}
+
+.gojo-subtitle {
+
+}
+
+.gojo-text {
+  font-size: 36px;
+  line-height: 2;
+}
+
+.gojo-button {
+  background: #428bca;
+  color: #fff;
+  font-size: 22px;
+  font-family: 'Effra-Std-Bd';
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 1rem 2rem 1rem 2rem;
+  margin-top: 2rem;
+}

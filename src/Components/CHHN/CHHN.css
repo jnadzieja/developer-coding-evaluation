@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'Effra-Std-Rg';
+  src: url('../../assets/fonts/Effra_Std_Rg.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Effra-Std-Bd';
+  src: url('../../assets/fonts/Effra_Std_Bd.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Effra-Std-Lt';
+  src: url('../../assets/fonts/Effra_Std_Lt.ttf') format('truetype');
+}
+
+.chhn-container {
+  background: url('../../assets/images/pic-chhn-bg.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 75vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  z-index: 2;
+  position: relative;
+  overflow: hidden;
+}
+
+.chhn-overlay {
+  overflow: hidden;
+  position: relative;
+}
+
+.chhn-img {
+  width: 109%;
+  height: auto;
+  position: relative;
+  top: -3.2rem;
+  left: -8rem;
+  z-index: 2;
+}
+
+.chhn-info {
+  font-family: 'Effra-Std-Rg';
+  color: #fff;
+  margin: 12rem 0rem 0rem 4rem;
+}
+
+.chhn-header {
+  font-family: 'Effra-Std-Bd';
+  font-size: 34px;
+  margin-bottom: -0.5rem;
+  line-height: 1;
+}
+
+.chhn-subtitle {
+  font-family: 'Effra-Std-Lt';
+  font-size: 16px;
+  margin-bottom: 2rem;
+}
+
+.chhn-text {
+  font-size: 28px;
+  line-height: 1.5;
+}
+
+.chhn-button {
+  background: #fff;
+  color: #000;
+  font-size: 22px;
+  font-family: 'Effra-Std-Bd';
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 1rem 2rem 1rem 2rem;
+  margin-top: 2rem;
+}

@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'Effra-Std-Rg';
+  src: url('../../assets/fonts/Effra_Std_Rg.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Effra-Std-Bd';
+  src: url('../../assets/fonts/Effra_Std_Bd.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Effra-Std-Lt';
+  src: url('../../assets/fonts/Effra_Std_Lt.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Effra-Std-Md';
+  src: url('../../assets/fonts/Effra_Std_Md.ttf') format('truetype');
+}
+
+.footer-container {
+  background: #aaa;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-family: 'Effra-Std-Rg';
+}
+
+.copywrite {
+  font-size: 22px;
+  padding: 3rem 0rem 3rem 6rem;
+}
+
+.sm-container {
+
+}
+
+.twitter-icon {
+  width: 4%;
+  position: relative;
+  top: 3rem;
+  left: 40rem;
+}
+
+.facebook-icon {
+  width: 1.5%;
+  position: relative;
+  top: 3rem;
+  left: 43rem;
+}
+
+.gplus-icon {
+  width: 3.5%;
+  position: relative;
+  top: 3rem;
+  left: 46rem;
+}

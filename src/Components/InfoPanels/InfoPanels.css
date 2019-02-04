@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'Effra-Std-Rg';
+  src: url('../../assets/fonts/Effra_Std_Rg.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Effra-Std-Lt';
+  src: url('../../assets/fonts/Effra_Std_Lt.ttf') format('truetype');
+}
+
+.info-container {
+  width: 100%;
+  background: #F5F5F5;
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  padding-bottom: 4rem;
+}
+
+.panels {
+  margin: 4rem;
+}
+
+.panels {
+  margin: 4rem;
+}
+
+.panels {
+  margin: 4rem;
+}
+
+.icons {
+  height: 50px;
+  width: 50px;
+}
+
+.panel-headers {
+  display: inline-block;
+  margin-left: 1rem;
+  margin-bottom: .5rem;
+  font-size: 34px;
+  font-family: 'Effra-Std-Rg';
+}
+
+.panel-text {
+  font-family: 'Effra-Std-Rg';
+  font-size: 28px;
+  margin-left: 4rem;
+}

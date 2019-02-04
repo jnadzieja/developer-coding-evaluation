@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'Effra-Std-Bd';
+  src: url('../../assets/fonts/Effra_Std_Bd.ttf') format('truetype');
+}
+
+.bg-img {
+  background: url('../../assets/images/pic-hero.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+
+.cardinal-logo {
+  margin-top: 3rem;
+  margin-left: 5rem;
+}
+
+.tagline {
+  font-family: 'Effra-Std-Bd', sans-serif;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 84px;
+  text-align: center;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .tagline {
+    font-size: 28px;
+    width: 90%;
+  }
+  .buffer {
+    height: 3rem;
+  }
+  .cardinal-logo {
+    display: block;
+    margin: 0 auto;
+  }
+}

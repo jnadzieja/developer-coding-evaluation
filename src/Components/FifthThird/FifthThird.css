@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'Effra-Std-Rg';
+  src: url('../../assets/fonts/Effra_Std_Rg.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Effra-Std-Bd';
+  src: url('../../assets/fonts/Effra_Std_Bd.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Effra-Std-Lt';
+  src: url('../../assets/fonts/Effra_Std_Lt.ttf') format('truetype');
+}
+
+.fifthThird-container {
+  background: url('../../assets/images/pic-fifththird-bg.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.fifthThird-info {
+  margin: 12rem 4rem 12rem 14rem;
+  font-family: 'Effra-Std-Rg';
+  color: #fff;
+  grid-column: 1/3;
+}
+
+.fifthThird-header {
+  font-family: 'Effra-Std-Bd';
+  margin-bottom: -1rem;
+  font-size: 34px;
+
+}
+
+.fifthThird-subtitle {
+  font-family: 'Effra-Std-Lt';
+  font-size: 18px;
+  margin-bottom: 3rem;
+}
+
+.fifthThird-text {
+  font-size: 28px;
+  line-height: 1.5;
+}
+
+.fifthThird-button {
+  background: #fff;
+  color: #000;
+  font-size: 22px;
+  font-family: 'Effra-Std-Bd';
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 1rem 2rem 1rem 2rem;
+  margin-top: 2rem;
+}
+
+.fifthThird-overlay {
+  grid-column: 3/7;
+}
+
+.fifthThird-img {
+  width: 119%;
+  height: auto;
+  padding-top: 8rem;
+  position: relative;
+  z-index: 1;
+}
